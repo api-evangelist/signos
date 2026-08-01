@@ -1,7 +1,17 @@
 aid: signos
 name: Signos
-description: 'Signos is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Signos is a metabolic health technology company founded by Sharam Fouladgar-Mercer
+  and Bill Tancer that pairs a continuous glucose monitor (CGM) sensor with an AI-powered
+  mobile app to help people understand their individual metabolic responses to food and
+  make data-driven lifestyle changes for weight management. In August 2025 Signos received
+  FDA clearance as the first over-the-counter glucose monitoring system for weight loss,
+  making it available without a prescription to adults not on insulin. The platform integrates
+  with the Dexcom Stelo sensor, Apple Health, Google Health Connect, smartwatches and smart
+  scales, delivers real-time glucose insights, personalized meal and movement recommendations,
+  registered-dietitian support, and daily and weekly metabolism scores, with optional GLP-1
+  medication access through partner healthcare providers. Signos was surfaced as a portfolio
+  company of GV (Google Ventures). It is a consumer-facing product and does not currently
+  publish a developer API, SDK, or developer portal.'
 url: https://raw.githubusercontent.com/api-evangelist/signos/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +19,30 @@ x-backed-by:
 - gv
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://www.signos.com/assets/open-graph.jpg
 tags:
 - Company
 - Consumer
+- Health
+- Digital Health
+- Metabolic Health
+- Continuous Glucose Monitoring
+- Weight Management
+- Wellness
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +51,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://signos.com
+  url: https://www.signos.com
+- type: Pricing
+  url: https://www.signos.com/plans
+- type: Blog
+  url: https://www.signos.com/blog
+- type: Support
+  url: https://support.signos.com
+- type: PrivacyPolicy
+  url: https://www.signos.com/privacy-policy
+- type: TermsOfService
+  url: https://www.signos.com/terms-conditions
+- type: DomainSecurity
+  url: security/signos-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
